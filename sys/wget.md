@@ -1,0 +1,1 @@
+wget --post-data="user=user1&pass=pass1&submit=Login"  http://domain.com/path/page_need_login.php  
