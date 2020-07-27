@@ -19,9 +19,10 @@ git fetch --all  git reset --hard origin/master  git pull
 ```shell script
 git rm -r --cached .
 git add . 
-git commit -m “添加过滤文件”
+git commit -m "fixed gitignore"
+git push origin 20200101-liun
 ```
-- 取消commit
+# 取消commit
 ```shell script
 git reset --soft HEAD^
 git reset --soft HEAD~1

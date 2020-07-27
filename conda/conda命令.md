@@ -65,7 +65,7 @@ source deactivate
 deactivate
 ```
 ## 复制一个环境
-通过克隆snowfllakes来创建一个称为flowers的副本。
+通过克隆snowflakes来创建一个称为flowers的副本。
 ```
 conda create -n flowers --clone snowflakes
 ```
