@@ -5,7 +5,7 @@
 ```
 import module1[, module2[,... moduleN]
 ```
-### from…import 语句
+### from...import... 语句
 
 Python的from语句让你从模块中导入一个指定的部分到当前命名空间中，语法如下：
 ```
