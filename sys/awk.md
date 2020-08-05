@@ -6,3 +6,6 @@ aaa
 ```
 tac obdServer.log | awk '{ print $4 }'| awk -F ":" '{print $1}' | grep -v "192.168.*" | sort n
 ```
+
+
+
