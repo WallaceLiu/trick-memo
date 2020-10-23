@@ -19,6 +19,10 @@ ZooKeeper -server host:port cmd args
 ```
 
 # 创建节点
+```text
+create [-s][-e] path data acl
+其中，-s或-e分别指定节点特性，顺序或临时节点，若不指定，则创建持久节点；ac1用来进行权限控制
+```
 ```shell script
 [zookeeper, yarn-leader-election, hadoop-ha]
 [zk: localhost:2181(CONNECTED) 2] create /test "test"
