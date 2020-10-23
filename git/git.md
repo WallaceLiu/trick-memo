@@ -14,8 +14,8 @@ git fetch -p origin
 # 覆盖本地分支
 ```shell script
 git fetch --all
-  git reset --hard origin/master
-  git pull
+git reset --hard origin/master
+git pull
 ```
 # gitignore生效
 ```shell script

@@ -1,4 +1,7 @@
-# 读写权限
-```shell script
-sudo chmod -R 777 *
+# 改变用户和组
 ```
+chown -R dwetl:hadoop dirname
+```
+
+
+
