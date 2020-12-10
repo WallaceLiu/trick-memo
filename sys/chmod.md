@@ -1,7 +1,10 @@
-# 改变用户和组
+# 授权文件夹权限
 ```
-chown -R dwetl:hadoop dirname
+chmod -R 777 FILE_PATH/
 ```
+> -R ：递归操作
+>
+> 777： 读写执行权限
 
 
 

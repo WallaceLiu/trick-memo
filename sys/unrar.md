@@ -1,3 +1,7 @@
+# install
+```
+brew install unrar
+```
 # 解压文件到当前目录
 ```shell script
 unrar e test.rar 
