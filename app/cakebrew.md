@@ -1,0 +1,3 @@
+```
+brew cask install cakebrew
+```
