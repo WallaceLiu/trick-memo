@@ -8,5 +8,3 @@ chmod -R 777 FILE_PATH/
 ```shell script
 chmod a+x FILE_PATH/
 ```
-
-

@@ -13,6 +13,7 @@ brew cask info java
 brew cask install java
 ```
 # 安装
-```shell
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+最好翻墙，不然很麻烦
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
