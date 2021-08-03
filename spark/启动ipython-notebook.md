@@ -5,8 +5,11 @@
 
 ```
 export PYSPARK_PYTHON=/Users/liuning11/anaconda3/envs/lr/bin/python3
+
 export PYSPARK_DRIVER_PYTHON=/Users/liuning11/anaconda3/envs/lr/bin/ipython3
+
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+	
 ```
 
 - IPYTHON, 启用ipython
@@ -19,13 +22,11 @@ export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 ```
 jupyter notebook --generate-config
 ```
-
 在用户路径下生成一个py文件：
 
 ```
 Writing default config to: /Users/cap/.jupyter/jupyter_notebook_config.py
 ```
-
 修改：
 
 ```
